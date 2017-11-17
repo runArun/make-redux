@@ -56,5 +56,3 @@ store.subscribe(() => renderApp(store.getState())) // 监听数据变化
 renderApp(store.getState()) // 首次渲染页面
 store.dispatch({ type: 'UPDATE_TITLE_TEXT', text: '《React.js 小书》' }) // 修改标题文本
 store.dispatch({ type: 'UPDATE_TITLE_COLOR', color: 'blue' }) // 修改标题颜色
-
-//dispatch is a pure func
